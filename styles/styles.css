@@ -48,7 +48,7 @@ button{
 #principal-content{
   display: flex;
   flex-direction: column;
-  height:88.3vh;
+  height:60.0rem;
   width: 100%;  
   align-items: center;
   justify-content: space-around;
@@ -98,7 +98,7 @@ footer{
   font-weight: 300;
 }
 /* Login */
-#modal-login, #modal-register{
+#modal-login, #modal-register, #modal-register-expense{
     display: flex;
     flex-direction: column;
     width: 45.938rem;
@@ -108,7 +108,7 @@ footer{
     align-items: center;
     justify-content: space-around;   
 }
-#modal-login .input-container, #modal-register .input-container{
+#modal-login .input-container, #modal-register .input-container, #modal-register-expense .input-container{
   display: flex;
   flex-direction: column;
   gap:5px;
