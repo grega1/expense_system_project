@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Sistema de gestão de despesas</title>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="logo">
+        <img src="./img/logo.svg" />
+      </div>
+      <div id="header-buttons">
+        <button id="signin" class="button-header">Sign In</button>
+        <button id="signUp" class="button-header">Sign Up</button>
+      </div>
+    </header>
+    <div id="principal-content">
+      <div id="modal-register">
+          
+            <h2 id="register-title">
+              Register
+            </h2>
+            <div>
+            <div class="input-container">
+              <label for="name" class="input-label">Id:</label>
+              <input type="text" name="id" id="input-username" placeholder="Digite um ID">
+            </div>
+            <div class="input-container">
+              <label for="username" class="input-label">Usuário:</label>
+              <input type="text" id="name" name="name" placeholder="Digite um nome de usuário">
+            </div>
+            <div class="input-container">
+              <label for="email" class="input-label">E-mail:</label>
+              <input type="email" id="input-email" name="email" placeholder="Digite um e-mail">
+            </div>
+            <div class="input-container">
+              <label for="phone" class="input-label">Telefone:</label>
+              <input type="phone" id="phone" name="phone" placeholder="Digite um número de telefone">
+            </div>
+            <div class="input-container">
+              <label for="password" class="input-label">Senha:</label>
+              <input type="password" id="input-password" name="password" placeholder="Digite uma senha">
+            </div>
+          </div>
+
+            <div class="btns">
+              <button  id="btn-back">Voltar</button>
+              <button id="btn-submit">Cadastrar</button>
+            </div>
+            <div id=resposta>
+
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+      Powered by FrontGrego
+    </footer>
+  </div>
+
+</body>
+
+</html>

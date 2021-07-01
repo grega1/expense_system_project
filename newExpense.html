@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Sistema de gestão de despesas</title>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="logo">
+        <img src="./img/logo.svg" />
+      </div>
+      <div id="header-buttons">
+        <button id="btn-config" class="button-header">Settings</button>
+        <button id="btn-exit" class="button-header">Exit</button>
+      </div>
+    </header>
+    <div id="principal-content">
+      <div id="modal-register">
+          
+            <h2 id="expense-title">
+              New Expense
+            </h2>
+            <div>
+            <div class="input-container">
+              <label for="category" class="input-label">Category:</label>
+              <input type="text" name="category" id="input-category" placeholder="Digite uma categoria">
+            </div>
+            <div class="input-container">
+              <label for="expiration-date" class="input-label">Expiration Date:</label>
+              <input type="date" id="input-expiration" name="expiration-date" placeholder="">
+            </div>
+            <div class="input-container">
+              <label for="username" class="input-label">Total:</label>
+              <input type="text" id="input-total" name="total" placeholder="Digite um valor">
+            </div>            
+          </div>
+
+            <div class="btns">             
+              <button id="btn-create-category">Register</button>
+            </div>
+            <div id=resposta>
+
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+      Powered by FrontGrego
+    </footer>
+  </div>
+
+</body>
+
+</html>
