@@ -191,4 +191,11 @@ select{
   color:#ffffff;
   font-size: 32px;
 }
+#add-expense{
+  background:none;
+  border:none;
+  position: fixed;
+  bottom:150px;
+  right: 50px;
+}
 
